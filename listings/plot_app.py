@@ -1,12 +1,8 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-#
-# michael a.g. aïvázis <michael.aivazis@para-sim.com>
-# (c) 1998-2020 all rights reserved
 
 # rewrite as a pyre app
 import pyre
-
 
 # my function; still not a member, but there is a plan...
 def square(x):
@@ -15,7 +11,6 @@ def square(x):
     """
     # do what my name says...
     return x**2
-
 
 # my app
 class Plot(pyre.application):
@@ -38,7 +33,6 @@ class Plot(pyre.application):
         # indicate success, à la u*ix
         return 0
 
-
 # bootstrap
 if __name__ == "__main__":
     # tell pyre this app wants to play by giving it a name
@@ -47,6 +41,5 @@ if __name__ == "__main__":
     status = app.run()
     # share the exit code with the shell
     raise SystemExit(status)
-
 
 # end of file
