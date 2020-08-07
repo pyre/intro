@@ -12,9 +12,112 @@
   %
   \frametitle{first steps - {\tt raw.py}}
   %
-  \begin{center}
-  \python{}{listings/raw.py}
-  \end{center}
+  \vskip -5ex
+  %
+  \begin{columns}
+    %
+    \begin{column}{.95\textwidth}
+      \python{}{listings/raw.py}
+    \end{column}
+    %
+  \end{columns}
+  %
+\end{frame}
+
+% making a script
+\begin{frame}[fragile]
+  %
+  \frametitle{dressing up - {\tt script.py}}
+  %
+  \vskip -5ex
+  %
+  \begin{columns}
+    %
+    \begin{column}{.95\textwidth}
+      \python{}{listings/script.py}
+    \end{column}
+    %
+  \end{columns}
+  %
+\end{frame}
+
+% factoring out the function
+\begin{frame}[fragile]
+  %
+  \frametitle{factoring out the function - {\tt func.py}}
+  %
+  \vskip -5ex
+  %
+  \begin{columns}
+    %
+    \begin{column}{.95\textwidth}
+      \python{}{listings/func.py}
+    \end{column}
+    %
+  \end{columns}
+  %
+\end{frame}
+
+% converting the table generator into a class
+\begin{frame}[fragile]
+  %
+  \frametitle{seeding the application - {\tt cls.py}}
+  %
+  \vskip -5ex
+  %
+  \begin{columns}
+    %
+    \begin{column}{.45\textwidth}
+      \python{firstnumber=6,linerange={6-30}}{listings/cls.py}
+    \end{column}
+    %
+    \begin{column}{.45\textwidth}
+      \python{firstnumber=32,linerange={32-39}}{listings/cls.py}
+    \end{column}
+    %
+  \end{columns}
+  %
+\end{frame}
+
+% making limit configurable
+\begin{frame}[fragile]
+  %
+  \frametitle{configurable limit - {\tt cls\_init.py}}
+  %
+  \vskip -5ex
+  %
+  \begin{columns}
+    %
+    \begin{column}{.45\textwidth}
+      \python{firstnumber=14,linerange={14-39}}{listings/cls_init.py}
+    \end{column}
+    %
+    \begin{column}{.45\textwidth}
+      \python{firstnumber=41,linerange={41-48}}{listings/cls_init.py}
+    \end{column}
+    %
+  \end{columns}
+  %
+\end{frame}
+
+% making limit configurable
+\begin{frame}[fragile]
+  %
+  \frametitle{defaults as class variables - {\tt cls\_default.py}}
+  %
+  \vskip -5ex
+  %
+  \begin{columns}
+    %
+    \begin{column}{.45\textwidth}
+      \python{firstnumber=14,linerange={14-42}}{listings/cls_default.py}
+    \end{column}
+    %
+    \begin{column}{.45\textwidth}
+      \python{firstnumber=44,linerange={44-51}}{listings/cls_default.py}
+    \end{column}
+    %
+  \end{columns}
   %
 \end{frame}
 
