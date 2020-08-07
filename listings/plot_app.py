@@ -18,7 +18,7 @@ class Plot(pyre.application):
     Tabulate the values of a function
     """
 
-    # the {limit} is now a pyre property, with a type and a default value
+    # {limit} is now a pyre property, with a type and a default value
     limit = pyre.properties.int(default=5)
 
     # the main entry point
