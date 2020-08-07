@@ -9,6 +9,7 @@
 ./func.py
 ./cls.py
 ./cls_init.py
+./cls_default.py
 ./plot_app.py
 ./plot_help.py
 ./plot_show.py
